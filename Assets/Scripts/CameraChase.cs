@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class CameraChase : MonoBehaviour
 {
-    public GameObject chaseObject;
+    [SerializeField] GameObject chaseObject;
     Vector3 difVector;
+    //エディターでカメラの高さを指定
     public float difPosY;
 
     // Start is called before the first frame update
